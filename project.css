@@ -124,10 +124,12 @@ h2{
     text-align: center;
     position: relative;
     overflow: hidden;
+    margin-bottom: 150px;
 }
 .secondpage{
     background-color: rgba(255, 248, 220, 0.311);
     padding: 50px 0 0 0;
+    margin-bottom: 0;
 }
 .icons{
     justify-content: center;
@@ -155,11 +157,68 @@ h2{
     width: 100%;
     display: block;
 }
-.thirdpage{
-    background-color: white;
-    position: relative;
-}
 .white{
     width: 100%;
     display: block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.thirdpage{
+    background: white;
+    margin-top: -5px;
+}
+.thirdcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 100px;
+}
+.thirdleft{
+    position: relative;
+}
+span{
+    color: orange;
+}
+.burger{
+    width: 450px;
+}
+.offer{
+    position: absolute;
+    top: -7px;
+    left: -20px;
+    width: 120px;
+}
+.thirdright{
+    width: 500px;
+}
+.thirdright h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.thirdright p{
+    color: gray;
+    line-height: 1.7;
+}
+.thirdright ul{
+    display: block;
+    margin-top: 30px;
+    list-style: disc;
+    padding-left: 20px;
+}
+.thirdright li{
+    display: list-item;
+    margin-bottom: 15px;
+}
+.thirdright button{
+    margin-top: 30px;
+    padding: 12px 30px;
+    background: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.thirdright button:hover{
+    background: black;
 }
