@@ -273,6 +273,10 @@ span{
     color: white;
     text-align: center;
 }
+.dollarstrike{
+    color: gray;
+    text-decoration: line-through;
+}
 .headcolor{
     color: orange;
 }
@@ -316,4 +320,79 @@ span{
 .menucard img{
     width:170px;
     margin-bottom:40px;
+}
+.curve{
+    width:100%;
+    display:block;
+    transform:rotate(180deg);
+    margin:0;
+    padding:0;
+    margin-bottom:-5px;
+}
+.fifthpage{
+    background-image:url("images/hero-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:0;
+    margin:0;
+    position:relative;
+}
+.fifthcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+    gap: 40px;
+}
+.fifthleft{
+    width:45%;
+}
+.fifthleft h1{
+    color:white;
+    font-size:56px;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+.fifthleft span{
+    color:orange;
+}
+.fifthleft p{
+    color:#dddddd;
+    font-size:17px;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+.orderbutton{
+    background:orange;
+    color:white;
+    border:none;
+    padding:14px 32px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+.orderbutton:hover{
+    background:white;
+    color:black;
+}
+.fifthright{
+    width: 55%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.burgeroffer{
+    width: 700px;
+    position: relative;
+    right: -80px;
+    top: 50px;
+}
+.offerbadge{
+    position: absolute;
+    width: 170px;
+    top: 90px;
+    left: 100px;
 }
