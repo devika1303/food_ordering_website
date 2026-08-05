@@ -388,11 +388,59 @@ span{
     width: 700px;
     position: relative;
     right: -80px;
-    top: 50px;
+    transform:translateY(50px);
 }
 .offerbadge{
     position: absolute;
     width: 170px;
     top: 90px;
     left: 100px;
+}
+.curvesixth{
+    width:100%;
+    display:block;
+    
+}
+.sixthpage{
+    background: white;
+    padding:0;
+    position: relative;
+    margin-top: 0;
+}
+.sixthcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+    gap: 40px;
+}
+.sixthleft{
+    width:50%;
+}
+.sixthleft h1{
+    color:rgb(0, 0, 0);
+    font-size:56px;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+.sixthleft span{
+    color: orange;
+}
+.sixthright{
+    width:50%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.cloudsbg{
+    width:400px;
+}
+.deliveryboy{
+    position:absolute;
+    width:530px;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    top: 50px;
 }
