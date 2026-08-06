@@ -202,7 +202,6 @@ span{
 }
 .thirdright p{
     color: gray;
-    line-height: 1.7;
 }
 .thirdright ul{
     display: block;
@@ -220,7 +219,6 @@ span{
     background: orange;
     color: white;
     border: none;
-    cursor: pointer;
 }
 .thirdright button:hover{
     background: black;
@@ -289,14 +287,12 @@ span{
     justify-content:center;
     gap:20px;
     margin-bottom:60px;
-    flex-wrap:wrap;
 }
 .menubuttons button{
     padding:12px 28px;
     border:none;
     border-radius:30px;
     background:white;
-    cursor:pointer;
     font-size:16px;
     transition:.3s;
 }
@@ -333,7 +329,6 @@ span{
     background-image:url("images/hero-bg.jpg");
     background-size:cover;
     background-position:center;
-    background-repeat:no-repeat;
     padding:0;
     margin:0;
     position:relative;
@@ -351,7 +346,6 @@ span{
 .fifthleft h1{
     color:white;
     font-size:56px;
-    line-height:1.2;
     margin-bottom:25px;
 }
 .fifthleft span{
@@ -360,7 +354,6 @@ span{
 .fifthleft p{
     color:#dddddd;
     font-size:17px;
-    line-height:1.8;
     margin-bottom:35px;
 }
 .orderbutton{
@@ -370,7 +363,6 @@ span{
     padding:14px 32px;
     font-size:16px;
     font-weight:bold;
-    cursor:pointer;
     transition:0.3s;
 }
 .orderbutton:hover{
@@ -388,7 +380,8 @@ span{
     width: 700px;
     position: relative;
     right: -80px;
-    transform:translateY(50px);
+    top: 20px;
+    height: 700px;
 }
 .offerbadge{
     position: absolute;
@@ -399,7 +392,6 @@ span{
 .curvesixth{
     width:100%;
     display:block;
-    
 }
 .sixthpage{
     background: white;
@@ -420,7 +412,8 @@ span{
 .sixthleft h1{
     color:rgb(0, 0, 0);
     font-size:56px;
-    line-height:1.2;
+    text-align: center;
+    font: bolder;
     margin-bottom:25px;
 }
 .sixthleft span{
