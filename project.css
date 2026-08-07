@@ -398,6 +398,7 @@ span{
     padding:0;
     position: relative;
     margin-top: 0;
+    width: 100%;
 }
 .sixthcontent{
     display: flex;
@@ -484,4 +485,35 @@ span{
 }
 .review h3{
     color: gold;
+}
+.eigthpage{
+    background: white;
+    width: 100%;
+    position: relative;
+    padding: 150px;
+}
+.banner1 img{
+    width: 700px;
+    height: 450px;
+}
+.banner2 img{
+    width: 350px;
+    height: 225px;
+    position: absolute;
+    left: 870px;
+    top: 150px;
+}
+.banner3 img{
+    width: 350px;
+    height: 225px;
+    position: absolute;
+    left: 1240px;
+    top: 150px;
+}
+.banner4 img{
+    width: 720px;
+    height: 225px;
+    position: absolute;
+    left: 870px;
+    top: 390px;
 }
