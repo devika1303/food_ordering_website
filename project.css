@@ -486,7 +486,7 @@ span{
 .review h3{
     color: gold;
 }
-.eigthpage{
+.eighthpage{
     background: white;
     width: 100%;
     position: relative;
@@ -494,7 +494,7 @@ span{
 }
 .banner1 img{
     width: 700px;
-    height: 450px;
+    height: 470px;
 }
 .banner2 img{
     width: 350px;
@@ -516,4 +516,121 @@ span{
     position: absolute;
     left: 870px;
     top: 390px;
+}
+.banner1{
+    position: relative;
+}
+.banner1 h1{
+    position: absolute;
+    top: 110px;
+    left: 15px;
+}
+.banner1 h4{
+    position: absolute;
+    top: 240px;
+    left: 15px;
+}
+.eightbutton1{
+    position: absolute;
+    top: 300px;
+    left: 15px;
+    color: white;
+    background-color: orange;
+    padding:10px 22px;
+    border: none;
+}
+.eightbutton1:hover{
+    color: black;
+    background-color: white;
+}
+.banner2 h1{
+    position:absolute;
+    top:160px;
+    left:900px;
+    color:white;
+}
+.banner2 h4{
+    position:absolute;
+    top:250px;
+    left:900px;
+    color:white;
+}
+.eightbutton2{
+    position:absolute;
+    top:300px;
+    left:900px;
+    color:white;
+    background-color:orange;
+    padding:10px 20px;
+    border:none;
+}
+.eightbutton2:hover{
+    color: black;
+    background-color: white;
+}
+.banner3 h1{
+    position:absolute;
+    top:160px;
+    left:1270px;
+    color:white;
+}
+.banner3 h4{
+    position:absolute;
+    top:250px;
+    left:1270px;
+    color:white;
+}
+.eightbutton3{
+    position:absolute;
+    top:300px;
+    left:1270px;
+    color:white;
+    background-color:orange;
+    padding:10px 20px;
+    border:none;
+}
+.eightbutton3:hover{
+    color: black;
+    background-color: white;
+}
+.banner4 h1{
+    position:absolute;
+    top:400px;
+    left:1350px;
+    color:white;
+}
+.banner4 h4{
+    position:absolute;
+    top:470px;
+    left:1350px;
+    color:white;
+}
+.eightbutton4{
+    position:absolute;
+    top:520px;
+    left:1350px;
+    color:white;
+    background-color:orange;
+    padding:10px 20px;
+    border:none;
+}
+.eightbutton4:hover{
+    color: black;
+    background-color: white;
+}
+.ninthpage{
+    background: rgb(213, 213, 213);
+    display: flex;
+}
+.ninthheadings{
+    text-align: center;
+}
+.ninthcard{
+    width: 300px;
+    height: 700px;
+    gap: 20px;
+}
+.card9 img{
+    width: 150px;
+    height: 90px;
 }
