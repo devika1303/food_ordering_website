@@ -15,6 +15,10 @@ ul{
     font-style: inherit;
     align-items: center;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 button{
     gap: 20px;
 }
