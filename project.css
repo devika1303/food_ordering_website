@@ -19,9 +19,6 @@ a{
     text-decoration: none;
     color: white;
 }
-button{
-    gap: 20px;
-}
 .image-container{
     position: relative;
     height: 700px;
@@ -418,10 +415,10 @@ span{
 }
 .sixthleft h1{
     color:rgb(0, 0, 0);
-    font-size:56px;
-    text-align: center;
+    font-size:46px;
     font: bolder;
     margin-bottom:25px;
+    margin-left: 8px;
 }
 .sixthleft span{
     color: orange;
@@ -679,4 +676,8 @@ span{
 .blogheading p{
     font-size: 15px;
     color: gray;
+}
+nav {
+    position: relative;
+    z-index: 1000;
 }
